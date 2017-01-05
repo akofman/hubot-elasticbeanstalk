@@ -1,6 +1,6 @@
 {
   "name": "hubot-elasticbeanstalk",
-  "description": "A hubot script that does the things",
+  "description": "A hubot script to manage AWS Elastic Beanstalk applications",
   "version": "0.0.0",
   "author": "Alexis Kofman <alexis.kofman@gmail.com>",
   "license": "MIT",
@@ -13,7 +13,7 @@
     "url": "https://github.com/akofman/hubot-elasticbeanstalk/issues"
   },
   "dependencies": {
-    "node-elasticbeanstalk-deploy": "^1.0.2",
+    "node-elasticbeanstalk-deploy": "^1.0.3",
     "node-elasticbeanstalk-list": "^1.0.2",
     "node-elasticbeanstalk-terminate": "^1.0.1"
   },

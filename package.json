@@ -30,6 +30,6 @@
   },
   "main": "index.coffee",
   "scripts": {
-    "test": "grunt test"
+    "test": "eslint index.js src"
   }
 }

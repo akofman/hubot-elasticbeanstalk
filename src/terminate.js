@@ -19,12 +19,12 @@ module.exports = (robot) => {
   robot.respond(/ebterminate (.*?(?=\s|$))(\sin\sregion\s|\s)?([^\s]+)?/i, (msg) => {
     msg.send('Preparing for termination ...');
     setTimeout(() => {
-      ebterminate(msg.match[1],{region: msg.match[3] || process.env.AWS_REGION}).then((result) => {
+      ebterminate(msg.match[1], {region: msg.match[3] || process.env.AWS_REGION}).then((result) => {
         msg.send('Environment is well terminating');
         msg.send(JSON.stringify(result));
       }).catch((err) => {
         msg.send(`Error: ${err}`);
       });
-    },1000);
+    }, 1000);
   });
-}
+};

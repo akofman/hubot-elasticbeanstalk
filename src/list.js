@@ -26,4 +26,4 @@ module.exports = (robot) => {
       });
     }, 1000);
   });
-}
+};

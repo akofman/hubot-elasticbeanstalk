@@ -2,7 +2,7 @@
 
 A hubot script to manage AWS Elastic Beanstalk applications
 
-See [`src/`](src/) files for full documentation.
+See files in the [`src/`](src/) folder for full documentation.
 
 ## Installation
 

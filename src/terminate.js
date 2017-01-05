@@ -8,7 +8,7 @@
 //   AWS_REGION
 //
 // Commands:
-//   eb terminate <environment> [in region ][<region>]- Terminates the given environment
+//   ebterminate <environment> [in region ][<region>]- Terminates the given environment
 //
 // Author:
 //   akofman

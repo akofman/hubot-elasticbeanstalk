@@ -8,7 +8,7 @@
 //   AWS_REGION
 //
 // Commands:
-//   eb deploy <src> [to ]<environmentName> [in region ][<region>] - Deploy the specified src to the given environment.
+//   ebdeploy <src> [to ]<environmentName> [in region ][<region>] - Deploy the specified src to the given environment.
 //
 // Author:
 //   akofman

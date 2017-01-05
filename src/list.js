@@ -8,7 +8,7 @@
 //   AWS_REGION
 //
 // Commands:
-//   eb list [<region>]- List all available applications and environments.
+//   eblist [<region>]- List all available applications and environments.
 //
 // Author:
 //   akofman

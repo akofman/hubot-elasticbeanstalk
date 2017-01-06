@@ -1,7 +1,7 @@
 {
   "name": "hubot-elasticbeanstalk",
   "description": "A hubot script to manage AWS Elastic Beanstalk applications",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Alexis Kofman <alexis.kofman@gmail.com>",
   "license": "MIT",
   "keywords": "hubot, hubot-elasticbeanstalk",
